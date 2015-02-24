@@ -1,3 +1,3 @@
 function youtube-audio-dl
-	youtube-dl -ct --extract-audio $argv
+	youtube-dl --extract-audio $argv
 end

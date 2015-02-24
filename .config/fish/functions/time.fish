@@ -1,3 +1,3 @@
 function time
-	/usr/bin/time -p $argv
+	command time -p $argv
 end
