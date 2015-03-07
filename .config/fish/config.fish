@@ -1,4 +1,6 @@
 set fish_greeting ''
+# Make colors render properly
+set TERM xterm-256color
 set GOPATH $HOME/Code/go
 set PATH $GOPATH/bin $PATH
 set PATH (ruby -rubygems -e "puts Gem.user_dir")/bin $PATH

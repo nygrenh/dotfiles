@@ -14,6 +14,8 @@ HISTFILESIZE=20000
 # Prompt
 PS1='\[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[0m\] '
 
+export TERM="gnome-256color"
+
 if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
