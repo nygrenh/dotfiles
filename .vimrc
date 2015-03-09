@@ -30,3 +30,7 @@ set incsearch
 set hlsearch
 set ignorecase
 set smartcase
+" Indentation
+set expandtab
+set shiftwidth=2
+set softtabstop=2
