@@ -1,3 +1,3 @@
 function irc
-	ssh -tX melkki screen -rd
+	mosh melkki -- screen -rd
 end
