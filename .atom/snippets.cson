@@ -1,0 +1,4 @@
+'.source.ruby':
+  'byebug':
+    'prefix': 'byebug'
+    'body': 'require byebug; byebug'

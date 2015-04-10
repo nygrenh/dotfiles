@@ -1,0 +1,26 @@
+"*":
+  welcome:
+    showOnStartup: false
+  linter:
+    showErrorInline: false
+    showInfoMessages: true
+    showHighlighting: false
+    statusBar: "Show error of the selected line"
+  core:
+    autoHideMenuBar: true
+    themes: [
+      "neutron-ui"
+      "neutron-syntax"
+    ]
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    softWrap: true
+    fontFamily: "Source Code Pro"
+    fontSize: 22
+    preferredLineLength: 120
+  "spell-check": {}
+  zentabs:
+    neverCloseDirty: true
+    neverCloseUnsaved: true
+    maximumOpenedTabs: 7
