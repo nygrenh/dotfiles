@@ -8,13 +8,14 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 symlink () {
-  TARGET=$PWD/$1
+  BASE_DIR=$(cd "$( dirname "$0" )" && pwd)
+  TARGET=$BASE_DIR/$1
   FILE=~/$1
   if [ -e "$FILE" ]
   then
-    printf "Skipping $RED$FILE$NC\n"
+    printf "Skipping $RED%s$NC\n" "$FILE"
   else
-    printf "Linking $CYAN$FILE$NC -> $BLUE$TARGET$NC\n"
+    printf "Linking $CYAN%s$NC -> $BLUE%s$NC\n" "$FILE" "$TARGET"
     ln -s "$TARGET" "$FILE"
   fi
 }
