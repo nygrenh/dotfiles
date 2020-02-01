@@ -1,3 +1,3 @@
 function irc
-	mosh melkki -- screen -rd
+	mosh henriknygren.fi -- screen -rd irc
 end
