@@ -33,6 +33,7 @@ symlink '.bashrc'
 mkdir -p ~/.config/fish
 symlink '.config/fish/config.fish'
 symlink '.config/fish/functions'
+symlink '.config/fish/fishfile'
 
 # Mpv
 mkdir -p ~/.config/mpv
