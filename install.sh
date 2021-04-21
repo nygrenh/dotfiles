@@ -42,3 +42,4 @@ symlink '.config/mpv/mpv.conf'
 # Others
 symlink '.screenrc'
 symlink '.vimrc'
+symlink '.config/starship.toml'

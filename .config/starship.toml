@@ -1,0 +1,19 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+[character]
+success_symbol = "[\\$](bold green) "
+error_symbol = "[✗](bold red) "
+
+[directory]
+truncation_length = 8
+truncate_to_repo = false
+
+[line_break]
+disabled = true
+
+[gcloud]
+disabled=true
+
+[kubernetes]
+disabled=true
